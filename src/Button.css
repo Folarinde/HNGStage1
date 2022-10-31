@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #EAECF0;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    margin: 12px auto;
+    text-decoration: none;
+    color: #101828;
+    background: #EAECF0;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0px;
+    gap: 24px;
+    width: 90%;
+    height: 72px;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 0px;
+    margin: auto;
+    width: 90vw;
+}
+hr{
+    border:.1px solid #EAECF0;
+    width: 90%;
+}
+#profile_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 88px;
+    height: 88px;
+    background: url(assets/avatar1.JPG);
+    border-radius: 275px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 64px;
+}
+#slack{
+    display: none;
+}
+#share{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 208px;
+    top: 44px;
+}
