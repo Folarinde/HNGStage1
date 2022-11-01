@@ -41,7 +41,7 @@ hr{
     border:.1px solid #EAECF0;
     width: 90%;
 }
-#profile_img{
+#profile__img{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,8 +65,6 @@ hr{
 }
 #share{
     position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 208px;
-    top: 44px;
+    right: 10%;
+    top: 7.5%;
 }
