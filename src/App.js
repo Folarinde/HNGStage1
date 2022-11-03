@@ -1,18 +1,19 @@
 import React from 'react';
-import Button from './Button';
-import Social from './Social';
-import Footer from './Footer';
-import Profile from './Profile';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Contact from './Contact';
+import Homepage from './Homepage';
 
 const App = () => {
-    return (
-        <div>
-            <Profile />
-            <Button />
-            <Social />
-            <Footer />
-        </div>
-    );
+  return (
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  );
 };
 
-export default App
+export default App;
