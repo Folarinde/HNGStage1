@@ -1,20 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Button from './Button';
-import Social from './Social';
-import Footer from './Footer';
-import Profile from './Profile';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Profile />
-    <Button />
-    <Social />
-    <Footer />
+    <App />
   </React.StrictMode>
 );
 

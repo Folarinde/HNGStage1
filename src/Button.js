@@ -36,6 +36,9 @@ const Button = () => {
       >
         Design Books
       </a>
+      <a id="contact" href="/contact">
+        Contact Me
+      </a>
     </div>
   );
 };
